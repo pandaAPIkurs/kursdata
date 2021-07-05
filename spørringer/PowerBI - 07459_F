@@ -1,0 +1,56 @@
+{
+  ""query"": [
+    {
+      ""code"": ""Region"",
+      ""selection"": {
+        ""filter"": ""agg:KommFylker"",
+        ""values"": [
+        ""F-30"",
+        ""F-03"",
+        ""F-34"",
+        ""F-38"",
+        ""F-42"",
+        ""F-11"",
+        ""F-46"",
+        ""F-15"",
+        ""F-50"",
+        ""F-18"",
+        ""F-54"",
+        ""F-21"",
+        ""F-22"",
+        ""F-23""
+        ]
+      }
+    },
+    {
+      ""code"": ""Kjonn"",
+      ""selection"": {
+        ""filter"": ""all"",
+        ""values"": [
+          ""*""
+        ]
+      }
+    },
+    {
+      ""code"": ""Alder"",
+      ""selection"": {
+        ""filter"": ""all"",
+        ""values"": [
+          ""*""
+        ]
+      }
+    },
+    {
+      ""code"": ""Tid"",
+      ""selection"": {
+        ""filter"": ""top"",
+        ""values"": [
+          ""10""
+        ]
+      }
+    }
+  ],
+  ""response"": {
+    ""format"": ""csv2""
+  }
+}
