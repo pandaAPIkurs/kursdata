@@ -1,0 +1,62 @@
+{
+  ""query"": [
+    {
+      ""code"": ""Region"",
+      ""selection"": {
+        ""filter"": ""all"",
+        ""values"": [
+          ""50*""
+        ]
+      }
+    },
+    {
+      ""code"": ""NACE2007"",
+      ""selection"": {
+        ""filter"": ""all"",
+        ""values"": [
+          ""*""
+        ]
+      }
+    },
+    {
+      ""code"": ""Kjonn"",
+      ""selection"": {
+        ""filter"": ""all"",
+        ""values"": [
+          ""*""
+        ]
+      }
+    },
+    {
+      ""code"": ""Alder"",
+      ""selection"": {
+        ""filter"": ""all"",
+        ""values"": [
+          ""*""
+        ]
+      }
+    },
+    {
+      ""code"": ""ContentsCode"",
+      ""selection"": {
+        ""filter"": ""item"",
+        ""values"": [
+          ""Sysselsatte"",
+          ""SysselsatteArb""
+        ]
+      }
+    },
+    {
+      ""code"": ""Tid"",
+      ""selection"": {
+        ""filter"": ""top"",
+        ""values"": [
+          ""10""
+        ]
+      }
+    }
+  ],
+  ""response"": {
+    ""format"": ""csv2""
+  }
+}
