@@ -1,0 +1,43 @@
+{
+  ""query"": [
+    {
+      ""code"": ""Region"",
+      ""selection"": {
+        ""filter"": ""all"",
+        ""values"": [
+         ""50*"", ""16*"", ""17*""
+        ]
+      }
+    }, 
+    {
+      ""code"": ""Kjonn"",
+      ""selection"": {
+        ""filter"": ""all"",
+        ""values"": [
+          ""*""
+        ]
+      }
+    },
+    {
+      ""code"": ""Alder"",
+      ""selection"": {
+        ""filter"": ""all"",
+        ""values"": [
+          ""*""
+        ]
+      }
+    },
+    {
+      ""code"": ""Tid"",
+      ""selection"": {
+        ""filter"": ""top"",
+        ""values"": [
+          ""10""
+        ]
+      }
+    }
+  ],
+  ""response"": {
+    ""format"": ""csv2""
+  }
+}
