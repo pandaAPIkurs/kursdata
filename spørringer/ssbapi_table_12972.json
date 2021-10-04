@@ -1,0 +1,53 @@
+{"queryObj":{
+  "query": [
+    {
+      "code": "Region",
+      "selection": {
+        "filter": "vs:Kommuner2020",
+        "values": [
+          "3003"
+        ]
+      }
+    },
+    {
+      "code": "Naring",
+      "selection": {
+        "filter": "vs:Nace2007hovudgrupper",
+        "values": [
+          "B"
+        ]
+      }
+    },
+    {
+      "code": "Vekedag",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "4"
+        ]
+      }
+    },
+    {
+      "code": "ContentsCode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Konkursar"
+        ]
+      }
+    },
+    {
+      "code": "Tid",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2021U35",
+          "2021U36"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+},"tableIdForQuery":"12972"}
