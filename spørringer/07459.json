@@ -1,0 +1,47 @@
+{
+  "query": [
+    {
+      "code": "Region",
+      "selection": {
+        "filter": "top",
+        "values": [
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Kjonn",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Alder",
+      "selection": {
+        "filter": "agg:Funksjonell1a",
+        "values": [
+          "F301",
+          "F303",
+          "F304"
+        ]
+      }
+    },
+    {
+      "code": "Tid",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2014",
+          "2021"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "csv2"
+  }
+}
