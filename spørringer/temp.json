@@ -1,0 +1,65 @@
+{
+  "query": [
+    {
+      "code": "Region",
+      "selection": {
+        "filter": "vs:KommunerS",
+        "values": [
+          "4601",
+          "4602"
+        ]
+      }
+    },
+    {
+      "code": "NACE2007",
+      "selection": {
+        "filter": "top",
+        "values": [
+          "5"
+        ]
+      }
+    },
+    {
+      "code": "Kjonn",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "code": "Alder",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "15-74",
+          "15-19",
+          "20-24"
+        ]
+      }
+    },
+    {
+      "code": "ContentsCode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Sysselsatte"
+        ]
+      }
+    },
+    {
+      "code": "Tid",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2019",
+          "2020"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

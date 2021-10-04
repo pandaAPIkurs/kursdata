@@ -3,9 +3,10 @@
     {
       "code": "Region",
       "selection": {
-        "filter": "top",
+        "filter": "item",
         "values": [
-          "2"
+          "0",
+          "46"
         ]
       }
     },
@@ -24,9 +25,7 @@
       "selection": {
         "filter": "agg:Funksjonell1a",
         "values": [
-          "F301",
-          "F303",
-          "F304"
+          "F301"
         ]
       }
     },
@@ -42,6 +41,6 @@
     }
   ],
   "response": {
-    "format": "csv2"
+    "format": "json-stat2"
   }
 }
