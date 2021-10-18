@@ -1,9 +1,0 @@
-{
-  "code": "Region",
-  "selection": {
-    "filter": "agg:KommSummer",
-    "values": [
-      "K-4601",
-      "K-4602"
-    ]
-  }
