@@ -18,3 +18,7 @@ Direktelenke til arbeidsbok for R:
 Direktelenke til arbeidsbok for Python:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pandaAPIkurs/kursdata/main?labpath=SSB%20API%20med%20python.ipynb)
+
+I jupyter labs som åpner når du trykker på lenken er det filene og mappene som er markert under som er viktige for kurset.
+
+![alt text](https://github.com/pandaAPIkurs/kursdata/blob/main/img/binder.png?raw=true)
