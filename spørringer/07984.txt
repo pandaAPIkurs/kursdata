@@ -1,0 +1,83 @@
+{
+  "query": [
+    {
+      "code": "Region",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "0",
+          "30",
+          "03",
+          "34",
+          "38",
+          "42",
+          "11",
+          "46",
+          "15",
+          "50",
+          "18",
+          "54"
+        ]
+      }
+    },
+    {
+      "code": "NACE2007",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "01-03",
+          "05-09",
+          "35-39",
+          "41-43",
+          "45-47"
+        ]
+      }
+    },
+    {
+      "code": "Kjonn",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Alder",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "15-74",
+          "15-19",
+          "20-24",
+          "25-39",
+          "40-54",
+          "55-66",
+          "67-74"
+        ]
+      }
+    },
+    {
+      "code": "ContentsCode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Sysselsatte"
+        ]
+      }
+    },
+    {
+      "code": "Tid",
+      "selection": {
+        "filter": "top",
+        "values": [
+          "3"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "csv2"
+  }
+}

@@ -1,0 +1,48 @@
+{
+    "query": [
+      {
+        "code": "Region",
+        "selection": {
+          "filter": "vs:Kommun",
+          "values": [
+            "4601",
+            "4602"
+          ]
+        }
+      },
+      {
+        "code": "Kjonn",
+        "selection": {
+          "filter": "item",
+          "values": [
+            "1",
+            "2"
+          ]
+        }
+      },
+      {
+        "code": "Alder",
+        "selection": {
+          "filter": "agg:TodeltGrupperingB",
+          "values": [
+            "H17",
+            "H18"
+          ]
+        }
+      },
+      {
+        "code": "Tid",
+        "selection": {
+          "filter": "item",
+          "values": [
+            "2019",
+            "2020",
+            "2021"
+          ]
+        }
+      }
+    ],
+    "response": {
+      "format": "json-stat2"
+    }
+}
