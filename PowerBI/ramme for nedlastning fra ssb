@@ -1,5 +1,6 @@
 let
-	Kilde = Csv.Document(Web.Contents("https://data.ssb.no/api/v0/no/table/07459/", [Content=Text.ToBinary(PostContents)]),[Encoding=1252]),
-    PostContents = ""
+    PostContents = "..."
+	Kilde = Web.Contents("https://data.ssb.no/api/v0/no/table/07459/", [Content=Text.ToBinary(PostContents)]),
+    Data=Csv.Document(Kilde, [Encoding=1252])
 in
     Kilde
