@@ -46,6 +46,14 @@ data<-'{
 }'
 
 temp <- POST(url , body = data, encode = "json", verbose())
-fromJSONstat(content(temp, "text"),naming = "id", use_factors = F)
+a<-content(temp)
+a$updated
 
+fromJSONstat(content(temp, "text"),naming = "id", use_factors = F)
+library (PxWebApiData)
+ApiData(url, 
+        ContentsCode = c("Priser","Faste","PriserSesJust"), 
+        Makrost = c("koh.nrpriv","koo.nroff","bif.nr83_6","makrok.nrianv","eks.nrtot","imp.nrtot","bnpb.nr23_9","bnpb.nr23_9fn","bnpb.nr23oljsj"),
+        Tid = 8i,
+        returnDataSet = 1)
 
